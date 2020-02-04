@@ -1,0 +1,35 @@
+/*
+white: #F8F8F8
+pale-pink: #F8C0D0
+gray: #98A8B0
+pink: #A84058
+pale-blue: #98D0E0
+pale-purple: #987078
+purple: #403870
+hot-blue: #2FC1F4
+hot-pink: #EB427D
+fave: #0404D3;
+*/
+
+body {
+  text-align: center;
+  font-family: "Gravitas One";
+
+
+}
+
+.title {
+  transform: scale(.8);
+}
+.titleFont {
+  color: #0404D3;
+  transform: scale(.5, 1.4);
+  font-weight: bold;
+  font-size: 6vw;
+}
+.subTitle {
+  color: #0404D3;
+  transform: scale(.5, 1.4);
+  font-weight: bold;
+  font-size: 3vw;
+}
