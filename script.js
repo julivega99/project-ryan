@@ -5,22 +5,22 @@ canvas.height = window.innerHeight;
 let area = canvas.height * canvas.width;
 
 
-const secondary = "#EB427D";
-const accent = "#F8C0D0";
-const purple = "#330C2F";
+const primary = "#EB427D";
+const secondary = "#EB6191";
+const terciary = "#EA6F9A";
 const violet = "#2F1847";
 
 // Neutral colors
 const white = "#fff";
 
-const colorset = [secondary];
+const colorset = [primary, secondary, terciary];
 const colors_amount = colorset.length;
 
 const MAX_RADIUS = 16;
 const MIN_RADIUS = 10;
-const AREA_CONSTANT = 20000;
+// const AREA_CONSTANT = 20000;
 let TOTAL_AMOUNT = 1 // Total amount of circles to be shown in one animation
-const SPEED = 1800 // millisconds
+const SPEED =  25//100//300 // milliseconds
 //if (TOTAL_AMOUNT > 2){
  //   TOTAL_AMOUNT = 2
 //}
@@ -51,7 +51,7 @@ function drawCircle() {
 
 function animate() {
     console.log(rep);
-    if (rep == 50) {
+    if (rep == 1000) {
        c.clearRect(0, 0, canvas.width, canvas.height);
       rep = 0;
     }

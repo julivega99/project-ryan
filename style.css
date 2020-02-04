@@ -20,6 +20,7 @@ fave: #0404D3;
 #canvas {
             /*border: 1px solid black;*/
             background: #E9F1F4;
+            position: fixed;
 }
 
 .site-wrapper {
@@ -47,6 +48,7 @@ footer {
   background-color: #58B5D8;
   padding-right: 3vh;
   padding-left: 3vh;
+  z-index: 1;
 
 }
 .headQuote {
@@ -54,17 +56,21 @@ footer {
 	transform: scale(1, 2.8);
 }
 
+/*Really need to center this*/
 main {
   -webkit-box-flex: 1;
           flex: 1;
    margin: 24px auto;
    padding: 18px;
-   position: absolute;
-   width: 60vw;
-/*   height: ;*/
+   position: relative;
+   z-index: 1;
+/*/*  width: 60vw;
+/*   height: ;
    left: 50%;
    margin-left: -30vw;
-   top: 5%;
+   top: 5%; */
+
+   background: white;
 
 
 }
