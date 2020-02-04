@@ -20,9 +20,13 @@ fave: #0404D3;
 #canvas {
             /*border: 1px solid black;*/
             background: #E9F1F4;
-            position: fixed;
+            /*position: fixed;*/
 }
 
+.painter {
+  position: fixed;
+
+}
 .site-wrapper {
   display: -webkit-box;
   display: flex;

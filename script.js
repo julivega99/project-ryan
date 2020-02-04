@@ -20,7 +20,7 @@ const MAX_RADIUS = 16;
 const MIN_RADIUS = 10;
 // const AREA_CONSTANT = 20000;
 let TOTAL_AMOUNT = 1 // Total amount of circles to be shown in one animation
-const SPEED =  25//100//300 // milliseconds
+const SPEED =  50//100//300 // milliseconds
 //if (TOTAL_AMOUNT > 2){
  //   TOTAL_AMOUNT = 2
 //}
