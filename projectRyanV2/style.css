@@ -39,6 +39,7 @@ div {
 #bounds {
     height: 100%;
 }
+
 #layout {
     height: 100%;
 }
@@ -46,7 +47,7 @@ div {
 .l-page {
 	height: 100%;
 	background-color: #000;
-	border-bottom: 8px solid #000;
+	/*border-bottom: 4px solid #000;*/
     border-left: 8px solid #000;
     border-right: 8px solid #000;
     position: relative;
@@ -64,7 +65,7 @@ div {
     left: 0;
     position: absolute;
     width: 100%;
-    background-color: #fff;
+    background-color: #F8F8F8/*#fff*/;
 }
 
 .logo {
@@ -100,7 +101,7 @@ a {
     left: 0;
     position: absolute;
     width: 100%;
-    background-color: #fff;
+    background-color: #F8F8F8;
 }
 
 /* Navigation */
@@ -128,7 +129,7 @@ a {
     z-index: 50;
     font-size: 2rem;
     font-weight: 800;
-    background-color: #c3a5f5;
+    background-color: #2acdf2 /*B4E2FC*/;
 }
 
 .torso {
@@ -148,8 +149,7 @@ a {
     z-index: 50;
     font-size: 2rem;
     font-weight: 800;
-    background-color: #ffa9af;	
-
+    background-color:  #f22a7a /*EA2867*/;	
 }
 
 .glutes {
@@ -169,8 +169,7 @@ a {
     z-index: 50;
     font-size: 2rem;
     font-weight: 800;
-    background-color: #ffe000;	
-
+    background-color: #0e48db /*23B2D2*/;	
 }
 
 .knees {
@@ -190,6 +189,5 @@ a {
     z-index: 50;
     font-size: 2rem;
     font-weight: 800;
-    background-color: #3cc8aa;	
-
+    background-color: #ffd622 /*05319C*/;	
 }
