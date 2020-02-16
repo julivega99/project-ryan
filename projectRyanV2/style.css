@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 
-/*<html>*/
+/* HTML */
 html {
 	height : 100%;
 	max-width: 100%;
-    font-family: U8, Helvetica, Arial, sans-serif;
+    font-family: Coda Caption, sans-serif;
     color: #000;
     display: block;
     background-color: #000;
     tab-size: 4;
 }
 
-/*<body>*/
+/* Body */
 
 body {
 	height : 100%;
@@ -28,13 +28,13 @@ body {
     display: block;
 }
 
-/*div*/
+/*<div>*/
 
 div {
     display: block;
 }
 
-/*bounds, layout */
+/* Bounds & Layout */
 
 #bounds {
     height: 100%;
@@ -55,17 +55,17 @@ div {
     
 }
 
-/* Header and Footer */
+/* Header & Footer */
 .header {
 	top: 0;
-    z-index: 50;
+    z-index: 10;
     border-bottom: 4px solid #000;
     border-top: 8px solid #000;
     height: calc(16.66667%);
     left: 0;
     position: absolute;
     width: 100%;
-    background-color: #F8F8F8/*#fff*/;
+    background-color: #FFFFFF/*#fff*/;
 }
 
 .logo {
@@ -75,9 +75,18 @@ div {
     outline: 0;
     display: block;
     text-decoration: none;
-    font-size: 2.6rem;
+    /*font-size: 2.6rem;*/
+    font-size: 8.3vw;
+
     font-weight: 800;
 }
+
+@media screen and (min-width: 700px) {
+  .logo {
+     font-size: 60px;
+  }
+}
+
 
 a {
     color: #000;
@@ -94,14 +103,14 @@ a {
 
 .footer {
     top: 83.33333%;
-    z-index: 50;
+    z-index: 10;
     border-bottom: 8px solid #000;
     border-top: 4px solid #000;
     height: calc(16.66667% /*+ 8px*/);
     left: 0;
     position: absolute;
     width: 100%;
-    background-color: #F8F8F8;
+    background-color: #FFFFFF;
 }
 
 .footerText {
@@ -113,11 +122,18 @@ a {
     transform: translateX(-50%) translateY(-50%);
     font-size: 1.3rem;
 }
+
+@media screen and (max-height: 650px) {
+  .footerText {
+     font-size: 16px;
+  }
+}
+
 /* Navigation */
 
 .m-navigation {
 	height: 100%;
-    z-index: 30;
+    z-index: 10;
     position: relative;
 }
 
@@ -135,10 +151,10 @@ a {
     justify-content: center;
     position: absolute;
     text-decoration: none;
-    z-index: 50;
+    z-index: 10;
     font-size: 2rem;
     font-weight: 800;
-    background-color: #2acdf2 /*B4E2FC*/;
+    background-color: #0014CC/*2acdf2*/ /*B4E2FC*/;
 }
 
 .torso {
@@ -155,10 +171,10 @@ a {
     justify-content: center;
     position: absolute;
     text-decoration: none;
-    z-index: 50;
+    z-index: 10;
     font-size: 2rem;
     font-weight: 800;
-    background-color:  #f22a7a /*EA2867*/;	
+    background-color:  #96BDC6/*f22a7a*/ /*EA2867*/;	
 }
 
 .glutes {
@@ -175,10 +191,10 @@ a {
     justify-content: center;
     position: absolute;
     text-decoration: none;
-    z-index: 50;
+    z-index: 10;
     font-size: 2rem;
     font-weight: 800;
-    background-color: #6EEB83/*2757D1*/;	
+    background-color: #EC2A86/*6EEB83*//*2757D1*/;	
 }
 
 .knees {
@@ -195,8 +211,92 @@ a {
     justify-content: center;
     position: absolute;
     text-decoration: none;
-    z-index: 50;
+    z-index: 10;
     font-size: 2rem;
     font-weight: 800;
-    background-color: #ffd622 /*05319C*/;	
+    background-color: #E7E247/*ffd622*/ /*05319C*/;	
 }
+
+/* Overlay */
+
+.overlay {
+  margin-top: 4px;
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  top: 16.66667%;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.3s;
+  border-left: 8px solid #000;
+  border-right: 8px solid #000;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 3rem;
+  color: #F8F8F8;
+  text-decoration: none;
+  font-weight: lighter;
+
+}
+
+/* Overlay - Shoulders */
+
+#shouldersBody {
+    display: none;
+    background-color: #0014CC;
+    color: #F8F8F8;
+    height: 100%;
+}
+
+div.shouldersText {
+  margin: auto;
+}
+
+
+/* Overlay - Torso */
+
+#torsoBody {
+    display: none;
+    background-color: #96BDC6;
+    color: #F8F8F8;
+    height: 100%;
+}
+
+div.torsoText {
+  margin: auto;
+}
+
+
+/* Overlay - Glutes */
+
+#glutesBody {
+    display: none;
+    background-color: #EC2A86;
+    color: #F8F8F8;
+    height: 100%;
+}
+
+div.glutesText {
+  margin: auto;
+}
+
+/* Overlay - Knees */
+
+#kneesBody {
+    display: none;
+    background-color: #E7E247;
+    color: #F8F8F8;
+    height: 100%;
+}
+
+div.kneesText {
+  margin: auto;
+}
+
+
+
