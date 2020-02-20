@@ -30,7 +30,8 @@ function closeNav() {
   document.getElementById("kneesBody").style.display = "none";
 
   document.getElementById("closebtn").style.color = "#F8F8F8";
-
+  document.myForm.reset();
+  hideOneMore();
 }
 
 
