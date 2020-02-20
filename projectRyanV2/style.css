@@ -233,7 +233,8 @@ a {
   border-right: 8px solid #000;
 }
 
-.overlay .closebtn {
+.overlay 
+.closebtn {
   position: absolute;
   top: .5rem;
   right: 1.3rem;
@@ -296,6 +297,63 @@ div.glutesText {
 
 div.kneesText {
   margin: auto;
+}
+
+#kneesFormBody {
+    /*display: flex;*/
+    font-family: Coda Caption, sans-serif;
+    font-size: 1rem;
+    line-height: 3rem;
+    background-color: #E7E247;
+    height: 100%;
+    text-align: left;
+    margin: 3vw;
+    color: #000000;
+
+}
+
+#oneMore{
+    display: none;
+}
+
+.inputTxt {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    background: inherit;
+    font-size: 1rem;
+    line-height: 3rem;
+    width: 75%;
+    font-family: inherit;
+    font-weight: lighter;
+}
+
+.inputBorder {
+    border-bottom: 3px solid #000;
+    width: 80%;
+    margin: 0;
+
+}
+
+.submit {
+    background: none;
+    border: none;
+    line-height: 3rem;
+    font-size: 1rem;
+    font-family: inherit;
+    float: right;
+}
+
+#thanks {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 

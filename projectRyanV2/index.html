@@ -14,7 +14,7 @@
     <div id ="layout">
       <div class="l-page">
         <div id="overlay" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">&times;</a>
           <div id="shouldersBody">
               <div class="shouldersText" >
                 <p>
@@ -24,6 +24,7 @@
                 </p>
               </div> 
           </div>
+
           <div id="torsoBody">
             <div class="torsoText">
               <p>
@@ -31,16 +32,47 @@
               </p>
             </div>
           </div>
+
           <div id="glutesBody">
             <div class="glutesText">
               Glutes
             </div>
           </div>
+
           <div id="kneesBody">
             <div class="kneesText">
-              Knees
+                
+              <div id="kneesFormBody">
+                <div id="thanks"> Thank you bb! </div>
+                <form name="myForm">
+                    <div>
+                      <input class="inputTxt" type="text" id="fullName" name="fullName" placeholder="Your Name bb">
+                      <div class="inputBorder"></div>
+                    </div>
+                  <br>
+                    <input class="inputTxt" type="text" id="email" name="email"
+                           placeholder="Your Email bb">
+                    <div class="inputBorder"></div>
+                  <br>
+                    <label for="plusOne">Will you be bringing a + 1?</label><br>
+                    <input type="radio" name="yes_no" value="yes"> Yes <br>
+                    <input type="radio" name="yes_no" value="no"> No 
+                  <br>
+                  <div id="oneMore">
+                      <input class="inputTxt" type="text" id="plusName" name="plusName" placeholder="Their Name bb">
+                      <div class="inputBorder"></div>
+                    <br>
+                      <input class="inputTxt" type="text" id="plusEmail" name="email" placeholder="Their Email bb">
+                      <div class="inputBorder"></div>
+                    <br>
+                  </div>
+                  <input class="submit" type="submit" value="send &#x2192;" onclick="submitForm()">
+                </form>
+              </div>
+
             </div>
           </div>
+
         </div>
         <header class="header">
             <a class="logo">
