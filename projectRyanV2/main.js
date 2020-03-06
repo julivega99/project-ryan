@@ -22,12 +22,19 @@ function openKnees() {
   document.getElementById("thanks").style.display = "none";
 }
 
+function openFoot() {
+  document.getElementById("overlay").style.height = "calc(83.3333% - 12px)";
+  document.getElementById("footBody").style.display = "flex";
+  document.getElementById("closebtn").style.color = "#000000";
+}
+
 function closeNav() {
   document.getElementById("overlay").style.height = "0%";
   document.getElementById("shouldersBody").style.display = "none";
   document.getElementById("torsoBody").style.display = "none";
   document.getElementById("glutesBody").style.display = "none";
   document.getElementById("kneesBody").style.display = "none";
+  document.getElementById("footBody").style.display = "none";
 
   document.getElementById("closebtn").style.color = "#F8F8F8";
   document.myForm.reset();
