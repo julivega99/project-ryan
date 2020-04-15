@@ -1,0 +1,47 @@
+<html>
+</!DOCTYPE html>
+<html>
+<head>
+  <title>RSVP Form</title>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap" rel="stylesheet">
+
+
+  <style>/* reset */
+
+
+  </style>
+</head>
+
+<body>
+  
+  <div id="kneesFormBody">
+    <div id="thanks"> Thank you bb! </div>
+    <form name="myForm">
+        <div>
+          <input class="inputTxt" type="text" id="fullName" name="fullName" placeholder="Your Name bb">
+          <div class="inputBorder"></div>
+        </div>
+      <br>
+        <input class="inputTxt" type="text" id="email" name="email"
+               placeholder="Your Email bb">
+        <div class="inputBorder"></div>
+      <br>
+        <label for="plusOne">Will you be bringing a + 1?</label><br>
+        <input type="radio" name="yes_no" value="yes"> Yes <br>
+        <input type="radio" name="yes_no" value="no"> No 
+      <br>
+      <div id="oneMore">
+          <input class="inputTxt" type="text" id="plusName" name="plusName" placeholder="Their Name bb">
+          <div class="inputBorder"></div>
+        <br>
+          <input class="inputTxt" type="text" id="plusEmail" name="email" placeholder="Their Email bb">
+          <div class="inputBorder"></div>
+        <br>
+      </div>
+      <input class="submit" type="submit" value="send &#x2192;" onclick="submitForm()">
+    </form>
+  </div>
+
+  <script type="text/javascript" src="main.js"></script> 
+</html>
