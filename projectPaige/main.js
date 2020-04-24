@@ -19,9 +19,9 @@ function openText(name, color) {
     case 'elena' :
       document.getElementById("elena").style.display="flex";
       break;
-    // case 'juli' :
-    //   document.getElementById("juli").style.display="flex";
-    //   break;
+    case 'mc' :
+       document.getElementById("mc").style.display="flex";
+       break;
     // case 'will' :
     //   document.getElementById("will").style.display="flex";
     //   break;
@@ -61,8 +61,8 @@ function closeNav() {
 
   // close all messages + images
   document.getElementById("elena").style.display="none";
-  document.getElementById("juli").style.display="none";
-  document.getElementById("will").style.display="none";
+  document.getElementById("mc").style.display="none";
+  // document.getElementById("will").style.display="none";
   // document.getElementById("anna").style.display="none";
   // document.getElementById("kristen").style.display="none";
   // document.getElementById("scar").style.display="none";

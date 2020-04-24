@@ -385,20 +385,21 @@ a {
   margin-top: 10px;
   width: 60%;
   border-right:2px solid #000;
-  height: 80%
   font-size: 25px;
 }
 #two { 
-  background-color: white;
+  /* background-color: white; */
   overflow:hidden;
   margin:10px;
-  border:2px dashed #000;
+  /* border:2px dashed #000; */
   min-height:170px;
 }
 img {
   max-width: 100%;
   max-height: 100%;
   display: block;
+  justify-content: center;
+  border: 10px dashed#FFFFFF;
 }
 
 @media screen and (max-width: 1000px) {
@@ -410,38 +411,9 @@ img {
     border-bottom:2px solid #000;    
   }
 }
-/* 
-#uno {
-  background-color: gray;
-  float:left; 
-  margin-right:10px;
-  width:75%;
-  border-right:2px solid #000;
-  margin-right: 10px;
-
-}
-#dos {
-  margin: auto;
-}
-
-.image {
-  width: 30vw;
-  height: auto;
-  padding-bottom: 3vh;
-}
-
-@media screen and (max-width: 700px) {
-  #uno { 
-   float: none;
-   margin-right:0;
-   width:auto;
-   border:0;
-   border-bottom:2px solid #000;    
- }
-} */
 
 #elena, #juli, #will, #anna, #kristen, #scar, #celina, #eva, #jon, #emilia, 
-#casey, #michael, #ace, #mary { 
+#casey, #michael, #ace, #mc { 
     display: none;
 }
 
