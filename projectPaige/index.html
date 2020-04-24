@@ -15,36 +15,16 @@
       <div class="l-page">
         <div id="overlay" class="overlay">
           <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">&times;</a>
-          <div id="shouldersBody">
-              <div class="shouldersText" >
-              </div> 
-          </div>
 
-          <div id="torsoBody">
-            <div class="torsoText">
+          <div id="message">
+            <div class="messageText" id="messageText">
             </div>
           </div>
           
-          <div id="glutesBody">
-            <div class="glutesText">
-            </div>
-          </div>
-
-          <div id="kneesBody">
-            <div class="kneesText">    
-            </div>
-          </div>
-
-          <div id="footBody">
-            <div class="footText">
-              foot
-            </div>
-          </div>
-
         </div>
         <header class="header">
             <a class="logo">
-              <span class="logoText">Dear Paige</span>
+              <span class="logoText">Dear Paige:</span>
             </a>
         </header>
 
@@ -54,23 +34,69 @@
                   <span class="footerText">Happy 21<sup>st</sup> Birthday!</span>
                 </footer>
             </a>
-            <div class="shoulders">
-            <a onClick="openShoulders()" class="leftBox">
-                <div>Juli</div>
-            </a>
-            <a onClick="openOneTwo()" class="rightBox">
-              <div> Elena </div>
-            </a>
+
+            <div class="one">
+              <a onClick="openText('juli', 'one')" class="leftBox">
+                  <div> Juli </div>
+              </a>
+              <a onClick="openText('elena', 'two')" class="rightBox" style="background-color:#fde2ef">
+                <div> Elena </div>
+              </a>
             </div>
-            <a onClick="openTorso()" class="torso">
-                <div>where</div>
-            </a>
-            <a onClick="openGlutes()" class="glutes">
-                <div>what to wear</div>
-            </a>
-            <a onClick="openKnees()" class="knees">
-                <div>rsvp</div>
-            </a>
+
+            <div class="two">
+              <a onClick="openText('will', 'two')" class="leftBox" style="background-color:#fde2ef">
+                <div> Will </div>
+              </a>
+              <a onClick="openText('anna', 'one')" class="rightBox">
+                <div> Anna </div>
+              </a>
+            </div>
+
+            <div class="three">
+              <a onClick="openText('kristen', 'one')" class="leftBox">
+                <div> Kristen </div>
+              </a>
+              <a onClick="openText('scar', 'two')" class="rightBox" style="background-color:#fde2ef">
+                <div> Scarlett </div>
+              </a>
+            </div>
+
+            <div class="four">
+              <a onClick="openText('celina', 'two')" class="leftBox" style="background-color:#fde2ef">
+                <div> Celina </div>
+              </a>
+              <a onClick="openText('eva', 'one')" class="rightBox">
+                <div> Eva </div>
+              </a>
+            </div>
+
+            <div class="five">
+              <a onClick="openText('jon', 'one')" class="leftBox">
+                <div> Jon </div>
+              </a>
+              <a onClick="openText('emi', 'two')" class="rightBox" style="background-color:#fde2ef">
+                <div> Emilia </div>
+              </a>
+            </div>
+
+            <div class="six">
+              <a onClick="openText('mary', 'two')" class="leftBox" style="background-color:#fde2ef">
+                <div> Mary </div>
+              </a>
+              <a onClick="openText('michael', 'one')" class="rightBox">
+                <div> Michael </div>
+              </a>
+            </div>
+
+            <div class="seven">
+              <a onClick="openText('ace', 'one')" class="leftBox">
+                <div> Ace </div>
+              </a>
+              <a onClick="openText('sofia', 'two')" class="rightBox" style="background-color:#fde2ef">
+                <div> Sofia </div>
+              </a>
+            </div>
         </nav>
       </div> 
     </div>  
