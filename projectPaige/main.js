@@ -62,7 +62,7 @@ function closeNav() {
   // close all messages + images
   document.getElementById("elena").style.display="none";
   document.getElementById("mc").style.display="none";
-  // document.getElementById("will").style.display="none";
+  document.getElementById("frankie").style.display="none";
   // document.getElementById("anna").style.display="none";
   // document.getElementById("kristen").style.display="none";
   // document.getElementById("scar").style.display="none";
