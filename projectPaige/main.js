@@ -22,9 +22,9 @@ function openText(name, color) {
     case 'mc' :
        document.getElementById("mc").style.display="flex";
        break;
-    // case 'will' :
-    //   document.getElementById("will").style.display="flex";
-    //   break;
+    case 'frankie' :
+       document.getElementById("frankie").style.display="flex";
+       break;
     // case 'anna' :
     //   document.getElementById("anna").style.display="flex";
     // case 'kristen':
