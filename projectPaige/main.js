@@ -25,8 +25,8 @@ function openText(name, color) {
     case 'frankie' :
        document.getElementById("frankie").style.display="flex";
        break;
-    // case 'anna' :
-    //   document.getElementById("anna").style.display="flex";
+    case 'will' :
+      document.getElementById("will").style.display="flex";
     // case 'kristen':
     //   document.getElementById("kristen").style.display="flex";
     // case 'scar':
@@ -63,7 +63,7 @@ function closeNav() {
   document.getElementById("elena").style.display="none";
   document.getElementById("mc").style.display="none";
   document.getElementById("frankie").style.display="none";
-  // document.getElementById("anna").style.display="none";
+  document.getElementById("will").style.display="none";
   // document.getElementById("kristen").style.display="none";
   // document.getElementById("scar").style.display="none";
   // document.getElementById("celina").style.display="none";
