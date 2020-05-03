@@ -36,8 +36,8 @@ function openText(name, color) {
        break;
     case 'casey':
        document.getElementById("casey").style.display="flex";
-    // case 'eva':
-    //   document.getElementById("eva").style.display="flex";
+    case 'michael':
+       document.getElementById("michael").style.display="flex";
     // case 'jon':
     //   document.getElementById("jon").style.display="flex";
     // case 'emilia':
@@ -70,7 +70,7 @@ function closeNav() {
   document.getElementById("eva").style.display="none";
   document.getElementById("scar").style.display="none";
   document.getElementById("casey").style.display="none";
-  // document.getElementById("eva").style.display="none";
+  document.getElementById("michael").style.display="none";
   // document.getElementById("jon").style.display="none";
   // document.getElementById("emilia").style.display="none";
   // document.getElementById("mary").style.display="none";
