@@ -27,8 +27,8 @@ function openText(name, color) {
        break;
     case 'will' :
       document.getElementById("will").style.display="flex";
-    // case 'kristen':
-    //   document.getElementById("kristen").style.display="flex";
+    case 'eva':
+       document.getElementById("eva").style.display="flex";
     // case 'scar':
     //   document.getElementById("scar").style.display="flex";
     // case 'celina':
