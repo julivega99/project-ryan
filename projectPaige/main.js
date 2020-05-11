@@ -46,14 +46,17 @@ function openText(name, color) {
     case 'celina':
        document.getElementById("celina").style.display="flex";
        break;
-    // case 'mary':
-    //   document.getElementById("mary").style.display="flex";
-    // case 'michael':
-    //   document.getElementById("michael").style.display="flex";
+    case 'juli':
+      document.getElementById("juli").style.display="flex";
+      break;
+    case 'jon':
+      document.getElementById("jon").style.display="flex";
+      break;
     // case 'ace':
     //   document.getElementById("ace").style.display="flex";
-    // case 'casey':
-    //   document.getElementById("casey").style.display="flex";
+    case 'kris':
+      document.getElementById("kris").style.display="flex";
+      break;
   }
 }
 
@@ -77,9 +80,9 @@ function closeNav() {
   document.getElementById("michael").style.display="none";
   document.getElementById("emilia").style.display="none";
   document.getElementById("celina").style.display="none";
-  // document.getElementById("mary").style.display="none";
-  // document.getElementById("michael").style.display="none";
+  document.getElementById("juli").style.display="none";
+  document.getElementById("jon").style.display="none";
   // document.getElementById("ace").style.display="none";
-  // document.getElementById("casey").style.display="none";
+  document.getElementById("kris").style.display="none";
 
 }
