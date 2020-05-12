@@ -52,11 +52,14 @@ function openText(name, color) {
     case 'jon':
       document.getElementById("jon").style.display="flex";
       break;
-    // case 'ace':
-    //   document.getElementById("ace").style.display="flex";
+    case 'ace':
+      document.getElementById("ace").style.display="flex";
+      break;
     case 'kris':
       document.getElementById("kris").style.display="flex";
       break;
+    default:
+      console.log("hey");
   }
 }
 
@@ -82,7 +85,6 @@ function closeNav() {
   document.getElementById("celina").style.display="none";
   document.getElementById("juli").style.display="none";
   document.getElementById("jon").style.display="none";
-  // document.getElementById("ace").style.display="none";
-  document.getElementById("kris").style.display="none";
+  document.getElementById("ace").style.display="none";
 
 }
